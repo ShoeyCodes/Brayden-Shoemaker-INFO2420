@@ -11,7 +11,11 @@
 <style type="text/css">
 
 table, td, tr {
-   border: 1px black;
+   border: 1px solid rgb(0, 0, 0);
+}
+
+td {
+   background-color: white;
 }
 
 .center {
@@ -29,6 +33,16 @@ table, td, tr {
    color: rgb(7, 97, 7);
 }
 
+.columnheading {
+   background-color: lightgrey;
+   width: 25%;
+}
+
+.days {
+   background-color: greenyellow;
+}
+
+
 </style>
 </head>
 
@@ -38,17 +52,30 @@ table, td, tr {
 <div class="center">
    <table class="width">
       <caption class="caption"><strong>My Class Schedule</strong></caption>
+      <colgroup class="columnheading"></colgroup>
+      <colgroup class="days" span="5"></colgroup>
 
-      <th>Courses</th>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesday</th>
-      <th>Thursday</th>
-      <th>Friday</th>
 
-      <th>
+      <tr>
+         <th>Courses</th>
+         <th>Monday</th>
+         <th>Tuesday</th>
+         <th>Wednesday</th>
+         <th>Thursday</th>
+         <th>Friday</th>
+      </tr>
+      
+      <tr>
+         <th><strong>INFO 1120</strong></th> <td></td> <td>9-11</td> <td></td> <td>9-11</td> <td></td>
+      </tr>
 
-      </th>
+      <tr>
+         <th><strong>MATH 1010</strong></th> <td colspan="4">12-1</td> <td></td>
+      </tr>
+
+      <tr>
+         <th><strong>INFO 2420</strong></th> <td colspan="5">Online Available 24/7</td>
+      </tr>
 
 
 
