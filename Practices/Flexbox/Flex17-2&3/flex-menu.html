@@ -25,7 +25,10 @@ h2 {
 }
 #menu {
   border: 3px solid #783F27;
-
+  display: flex;
+  align-items: stretch;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 section {
   background: #F6F3ED;
@@ -33,6 +36,9 @@ section {
   padding: 20px;
   border: 1px dotted maroon;
   width: 240px;
+  display: flex;
+  flex-direction: column;
+  flex: auto
 }
 .title {
   background-color: #783F27;
@@ -45,13 +51,20 @@ section {
   padding: 5px;
   width: 100%;
   text-align: center;
+  margin-top: auto;
 }
+
+.photo {
+  order: -1;
+}
+
 </style>
 
 </head>
 
 <body>
 <div id="menu">
+
 <section class="title">
 <h1>Bistro Items To Go</h1>
 </section>
