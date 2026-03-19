@@ -13,6 +13,7 @@
 		var myHeading=document.getElementById('Top');
 
     		document.body.style.backgroundColor=code;
+			changeHeading(code);
 
 	/**************************************************************************************
 	Use an if.. else if.. else function to set the following styles using the myHeading variable 
@@ -31,6 +32,35 @@
 
 	}
 
+	function changeHeading(code) {
+
+	var myHeading = document.getElementById('Top');
+	
+    if (code === "blue") {
+        myHeading.style.color = "white";
+        myHeading.style.textDecoration = "none";
+        myHeading.style.textAlign = "right";
+        myHeading.style.fontSize = "30px";
+    }
+    else if (code === "red") {
+        myHeading.style.color = "black";
+        myHeading.style.textDecoration = "none";
+        myHeading.style.textAlign = "center";
+        myHeading.style.fontSize = "44px";
+    }
+    else if (code === "yellow") {
+        myHeading.style.color = "red";
+        myHeading.style.textDecoration = "underline";
+        myHeading.style.textAlign = "center";
+        myHeading.style.fontSize = "24px";
+    }
+    else {
+        myHeading.style.color = "pink";
+        myHeading.style.textDecoration = "none";
+        myHeading.style.fontSize = "44px";
+        myHeading.style.textAlign = "left";
+    }
+}
 
 // - End of JavaScript - -->
 </script>
