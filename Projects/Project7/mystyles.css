@@ -1,3 +1,76 @@
 @charset "UTF-8";
 /* CSS Document */
 
+:root {
+  --midnight-pine: #0F1A1C;
+  --canyon-stone: #E9E1D6;
+  --burnt-sienna: #C65A2E;
+  --glacier-teal: #28b6af;
+  --champagne-gold: #C6A75E;
+  --ivory-mist: #F8F6F1;
+  --slate-ink: #2A2A2A;
+}
+
+body {
+  background-color: var(--midnight-pine);
+  color: var(--ivory-mist);
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+h1 {
+  font-size: 3.8rem;
+  letter-spacing: 1px;
+  color: var(--champagne-gold);
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--champagne-gold);
+}
+
+p, li {
+    color: var(--canyon-stone);
+}
+
+
+a {
+    color: var(--glacier-teal);
+    text-decoration: wavy underline;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--champagne-gold);
+}
+
+a:active {
+    color: var(--burnt-sienna);
+}
+
+a:visited {
+    color: #245e5b;
+}
+
+
+.image_left {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+}
+
+.image_right {
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 5px
+}
+
+.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
