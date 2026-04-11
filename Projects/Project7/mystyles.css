@@ -12,10 +12,19 @@
 }
 
 body {
-  background-color: var(--midnight-pine);
+  background-image: url("Images/2colback.jpg");
   color: var(--ivory-mist);
   font-family: 'Montserrat', sans-serif;
   font-size: medium;
+  margin: auto
+}
+
+header {
+    width: 885px;
+    height: 175px; /* adjust this to fit your logo/banner nicely */
+    background-color: var(--midnight-pine);
+    overflow: hidden;
+	margin: auto
 }
 
 h1 {
@@ -74,3 +83,20 @@ a:visited {
     margin-right: auto;
     padding: 5px;
 }
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+	margin-left: 25px;
+}
+
+#banner {
+    float: left;
+    margin-left: 60px;
+	width: 650px;
+}
+
