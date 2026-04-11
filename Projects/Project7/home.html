@@ -8,6 +8,7 @@
 </head>
 <body onload="preloadImages()">
     <div id="container">
+		
 		<header>
 			<div>
         		<a href="#" onmouseover="document.getElementById('logo').src='Images/Logo2.png';" 
@@ -16,33 +17,40 @@
         		</a>
     		</div>
 			<img src="Images/Banner.png" id="banner" alt="Extreme Honeymoons Banner">
-			<nav></nav>
+			<nav>
+				<a href="home.html">Home</a>
+				<a href="AboutUs.html">About Us</a>
+				<a href="Tributes.html">Tributes</a>
+				<a href="Survey.html">Survey</a>
+				<a href="Favorites.html">Favorites</a>
+			</nav>
 		</header>
+		
 		<section>
 			<article>
-    				<!-- Main Heading -->
     				<h1>Welcome to Extreme Honeymoons</h1>
 
-    				<!-- Welcome Text -->
     				<p>If you are just getting hitched, we can help make your honeymoon outrageous.
 					Take a look at our Excursions and take the opportunity to complete our survey.</p>
 
-    				<!-- Thumbnail Image Swap Section -->
     				<h2>Our Adventure Packages</h2>
 
-    				<!-- Paste your thumbnail image swap HTML from Project 6 here -->
     				<img src="Images/fullsize/Image1Lg.jpg" id="theImage" alt="Honeymoon Adventure" width="300">
 
-    				<div>
-        					<img src="Images/Thumbnails/Image1Th.jpg" alt="Newlyweds Sailing" onclick="swapImage(0)">
-        					<img src="Images/Thumbnails/Image2Th.jpg" alt="Snowboarder in Air" onclick="swapImage(1)">
-        					<img src="Images/Thumbnails/Image3Th.jpg" alt="Couple Hiking" onclick="swapImage(2)">
-        					<img src="Images/Thumbnails/Image4Th.jpg" alt="Couple Biking" onclick="swapImage(3)">
-    				</div>
+    				<div id="thumbs">
+
+						<img src="Images/thumbnails/image1sm.jpg" alt="Couple on boat" onmouseover="swapImage(0);" />
+
+						<img src="Images/thumbnails/image2sm.jpg" alt="Snowboarder in air" onmouseover="swapImage(1);" />
+
+						<img src="Images/thumbnails/image3sm.jpg" alt="Couple hiking" onmouseover="swapImage(2);" />
+
+						<img src="Images/thumbnails/image4sm.jpg" alt="Couple biking" onmouseover="swapImage(3);" />
+
+					</div>
 
     				<div id="bottomText"></div>
 
-    				<!-- Mini Tribute Section -->
     				<h2>Featured Tribute</h2>
 
     				<img src="Images/TributeImage.jpg" alt="Tribute Image" width="150" style="float:left; margin-right:10px;">
@@ -51,8 +59,12 @@
 
 			</article>
 		</section>
-		<footer></footer>
+		
+		<footer>
+			<p>Webmaster: <a href="mailto:10930959@uvu.edu">10930959@uvu.edu</a></p>
+			<p>This web site has been created solely for educational purposes.</p>
+		</footer>
 	</div>
-    <script src="myscript.js"></script>
+    <script src="myscripts.js"></script>
 </body>
 </html>

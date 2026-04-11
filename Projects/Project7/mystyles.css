@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url("Images/2colback.jpg");
+  background-color: var(--midnight-pine);
   color: var(--ivory-mist);
   font-family: 'Montserrat', sans-serif;
   font-size: medium;
@@ -21,16 +21,16 @@ body {
 
 header {
     width: 885px;
-    height: 175px; /* adjust this to fit your logo/banner nicely */
     background-color: var(--midnight-pine);
     overflow: hidden;
 	margin: auto
 }
 
 section {
-    width: 900px;
+    width: 893px;
     background-image: url('Images/2colback.jpg');
     background-repeat: repeat-y;
+	overflow: hidden;
 }
 
 h1 {
@@ -71,31 +71,40 @@ a:visited {
 }
 
 nav {
-    width: 30%;
-    float: right;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--midnight-pine);
+    gap: 5px;
+    padding: 8px 0;
 }
 
 nav a {
     display: block;
     text-align: center;
-    padding: 8px;
+    padding: 10px 20px;
     text-decoration: none;
-    background-color: #0F1A1C;
-    color: #C6A75E;
+    background-color: var(--midnight-pine);
+    color: var(--champagne-gold);
     font-size: 16px;
-    margin-bottom: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid var(--champagne-gold);
+    border-radius: 4px;
 }
 
 nav a:hover {
-    background-color: #C65A2E;
-    color: #F8F6F1;
+    background-color: var(--burnt-sienna);
+    color: var(--ivory-mist);
+    border-color: #C65A2E;
 }
 
 article {
-    width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(248, 246, 241, 0.85);
+    width: 630px;
+    margin-left: 253px;
+    padding: 0px 4px 20px 15px;
+	text-align: center;
 }
 
 article h1 {
@@ -109,8 +118,26 @@ article h2 {
 
 article p {
     color: #2A2A2A;
+	text-align: left;
 }
 
+footer {
+    width: 900px;
+    height: 60px;
+    background-color: #0F1A1C;
+    color: #C6A75E;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #28b6af;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #C65A2E;
+}
 
 .image_left {
     float: left;
