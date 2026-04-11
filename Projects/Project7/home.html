@@ -9,12 +9,47 @@
 <body onload="preloadImages()">
     <div id="container">
 		<header>
-			<img src="Images/Logo.png" id="logo" alt="Extreme Honeymoons Logo">
+			<div>
+        		<a href="#" onmouseover="document.getElementById('logo').src='Images/Logo2.png';" 
+                    onmouseout="document.getElementById('logo').src='Images/Logo.png';">
+            		<img src="Images/Logo.png" alt="Extreme Honeymoons Logo" id="logo" width="150" height="200">
+        		</a>
+    		</div>
 			<img src="Images/Banner.png" id="banner" alt="Extreme Honeymoons Banner">
 			<nav></nav>
 		</header>
 		<section>
-			<article></article>
+			<article>
+    				<!-- Main Heading -->
+    				<h1>Welcome to Extreme Honeymoons</h1>
+
+    				<!-- Welcome Text -->
+    				<p>If you are just getting hitched, we can help make your honeymoon outrageous.
+					Take a look at our Excursions and take the opportunity to complete our survey.</p>
+
+    				<!-- Thumbnail Image Swap Section -->
+    				<h2>Our Adventure Packages</h2>
+
+    				<!-- Paste your thumbnail image swap HTML from Project 6 here -->
+    				<img src="Images/fullsize/Image1Lg.jpg" id="theImage" alt="Honeymoon Adventure" width="300">
+
+    				<div>
+        					<img src="Images/Thumbnails/Image1Th.jpg" alt="Newlyweds Sailing" onclick="swapImage(0)">
+        					<img src="Images/Thumbnails/Image2Th.jpg" alt="Snowboarder in Air" onclick="swapImage(1)">
+        					<img src="Images/Thumbnails/Image3Th.jpg" alt="Couple Hiking" onclick="swapImage(2)">
+        					<img src="Images/Thumbnails/Image4Th.jpg" alt="Couple Biking" onclick="swapImage(3)">
+    				</div>
+
+    				<div id="bottomText"></div>
+
+    				<!-- Mini Tribute Section -->
+    				<h2>Featured Tribute</h2>
+
+    				<img src="Images/TributeImage.jpg" alt="Tribute Image" width="150" style="float:left; margin-right:10px;">
+    				<p>Your two or three sentence tribute snippet goes here. More text more text more text.</p>
+    				<p><a href="#">more &gt;&gt;</a></p>
+
+			</article>
 		</section>
 		<footer></footer>
 	</div>

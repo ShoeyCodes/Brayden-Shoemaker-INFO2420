@@ -27,6 +27,12 @@ header {
 	margin: auto
 }
 
+section {
+    width: 900px;
+    background-image: url('Images/2colback.jpg');
+    background-repeat: repeat-y;
+}
+
 h1 {
   font-size: 3.8rem;
   letter-spacing: 1px;
@@ -62,6 +68,47 @@ a:active {
 
 a:visited {
     color: #245e5b;
+}
+
+nav {
+    width: 30%;
+    float: right;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #0F1A1C;
+    color: #C6A75E;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+nav a:hover {
+    background-color: #C65A2E;
+    color: #F8F6F1;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(248, 246, 241, 0.85);
+}
+
+article h1 {
+    color: #0F1A1C;
+    text-align: center;
+}
+
+article h2 {
+    color: #C65A2E;
+}
+
+article p {
+    color: #2A2A2A;
 }
 
 
