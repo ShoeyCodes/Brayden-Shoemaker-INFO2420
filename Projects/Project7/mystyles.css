@@ -20,10 +20,11 @@ body {
 }
 
 header {
-    width: 885px;
+    width: 900px;
     background-color: var(--midnight-pine);
     overflow: hidden;
-	margin: auto
+	margin-left: 8px;
+	
 }
 
 section {
@@ -31,6 +32,8 @@ section {
     background-image: url('Images/2colback.jpg');
     background-repeat: repeat-y;
 	overflow: hidden;
+	display: flex;
+	align-items: flex-start;
 }
 
 h1 {
@@ -54,12 +57,13 @@ p, li {
 
 a {
     color: var(--glacier-teal);
+	text-emphasis: bold;
     text-decoration: wavy underline;
     font-weight: 500;
 }
 
 a:hover {
-    color: var(--champagne-gold);
+    color: var(--ivory-mist);
 }
 
 a:active {
@@ -71,13 +75,13 @@ a:visited {
 }
 
 nav {
-    width: 900px;
+    width: 240px;
     display: flex;
+	flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: var(--midnight-pine);
-    gap: 5px;
-    padding: 8px 0;
+    align-items: left;
+    gap: 25px;
+    padding: 15px 7px;
 }
 
 nav a {
@@ -87,7 +91,7 @@ nav a {
     text-decoration: none;
     background-color: var(--midnight-pine);
     color: var(--champagne-gold);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
     border: 1px solid var(--champagne-gold);
@@ -101,8 +105,8 @@ nav a:hover {
 }
 
 article {
-    width: 630px;
-    margin-left: 253px;
+    width: 600px;
+    margin-left: 5px;
     padding: 0px 4px 20px 15px;
 	text-align: center;
 }
