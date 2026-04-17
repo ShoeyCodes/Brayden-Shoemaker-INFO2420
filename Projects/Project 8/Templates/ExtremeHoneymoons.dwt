@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Extreme Honeymoons Home Page</title>
+    <!-- TemplateEndEditable -->
+    <link rel="stylesheet" href="../mystyles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body onload="preloadImages()">
+    <div id="container">
+		
+		<header>
+			<div>
+        		<a href="../home.html" onmouseover="document.getElementById('logo').src='Images/Logo2.png';" 
+                    onmouseout="document.getElementById('logo').src='Images/Logo.png';">
+            		<img src="../Images/Logo.png" alt="Extreme Honeymoons Logo" id="logo" width="150" height="200">
+        		</a>
+    		</div>
+			<img src="../Images/Banner.png" id="banner" alt="Extreme Honeymoons Banner">
+			
+		</header>
+		
+		<section>
+			<nav>
+				<a href="../home.html">Home</a>
+				<a href="../AboutUs.html">About Us</a>
+				<a href="../Tributes.html">Tributes</a>
+				<a href="../Survey.html">Survey</a>
+				<a href="../Favorites.html">Favorites</a>
+			</nav>
+			
+		  <!-- TemplateBeginEditable name="PageContent" -->
+			<article>
+			  <h1>Welcome to Extreme Honeymoons</h1>
+			  <p>If you are just getting hitched, we can help make your honeymoon outrageous.
+			    Take a look at our Excursions and take the opportunity to complete our survey.</p>
+			  <h2>Our Adventure Packages</h2>
+			  <img src="../Images/fullsize/Image1Lg.jpg" id="theImage" alt="Honeymoon Adventure" width="300">
+			  <div id="thumbs"> <img src="../Images/thumbnails/image1sm.jpg" alt="Couple on boat" onMouseOver="swapImage(0);" /> <img src="../Images/thumbnails/image2sm.jpg" alt="Snowboarder in air" onMouseOver="swapImage(1);" /> <img src="../Images/thumbnails/image3sm.jpg" alt="Couple hiking" onMouseOver="swapImage(2);" /> <img src="../Images/thumbnails/image4sm.jpg" alt="Couple biking" onMouseOver="swapImage(3);" /> </div>
+			  <div id="bottomText"></div>
+			  <h2>Featured Tribute</h2>
+			  <img src="../Images/Extremehoneymoons-images/Tributes/SkiCouple1Sm.jpg" alt="Skiing couple smiling at the camera" class="image_left" width="250" height="166">
+			  <p> We just wanted to thank you folks at Extreme Honeymoons for a rip-roaring time during our honeymoon trip.  I had always wanted to try heliskiing, and my honeymoon seemed as good a time to go for it.  Both my wife Mary and I are experienced downhill skiers, but we had never tried extreme skiing or snowboarding before. </p>
+			  <p><a href="#">more &gt;&gt;</a></p>
+		  </article>
+	    <!-- TemplateEndEditable --> 
+		</section>
+		
+		<footer>
+		  <p>Webmaster: <a href="mailto:10930959@uvu.edu">10930959@uvu.edu</a></p>
+			<p>This web site has been created solely for educational purposes.</p>
+		</footer>
+	</div>
+    <script src="../myscripts.js"></script>
+</body>
+</html>
