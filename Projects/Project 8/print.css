@@ -185,7 +185,9 @@ footer a:hover {
 
 body{
 	background-color: white;
+	color: black;
 	margin: auto;
+	font-family: serif;
 }
 
 header {
@@ -207,4 +209,10 @@ nav{
 
 footer	{
 	display:none;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
 }
