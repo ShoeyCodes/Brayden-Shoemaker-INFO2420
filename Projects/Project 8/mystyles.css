@@ -56,7 +56,7 @@ p, li {
 
 
 a {
-    color: var(--glacier-teal);
+    color: var(--midnight-pine);
 	text-emphasis: bold;
     text-decoration: wavy underline;
     font-weight: 500;
@@ -142,6 +142,16 @@ footer a {
 footer a:hover {
     color: #C65A2E;
 }
+
+/* Classes are below in the green */
+
+.splash {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .image_left {
     float: left;
